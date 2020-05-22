@@ -9,7 +9,7 @@ const DEBUG = process.env.DEBUG === "true";
 
 const {
   PORT,
-  DB_HOST,
+  DB_URI,
   DB_USER,
   DB_PASS,
   DB_PORT,
@@ -28,7 +28,7 @@ export {
   NODE_ENV,
   DEBUG,
   PORT,
-  DB_HOST,
+  DB_URI,
   DB_USER,
   DB_PASS,
   DB_PORT,
